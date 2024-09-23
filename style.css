@@ -109,7 +109,7 @@ h1 {
 
 .person-card {
     max-height: 330px !important;
-    background: rgba(232, 232, 232, 1);
+    background: rgba(232, 232, 232, .6);
     border-radius: 20px;
     box-shadow: 1px -1px 2px rgba(0, 0, 0, .4);
 }
@@ -130,4 +130,9 @@ h1 {
     font-weight: 800;
     padding: 15px 20px;
     border-radius: 35px;
+}
+
+.code-bg {
+    background: url("/assets/cc_logo_4_backdrop.png") no-repeat;
+    background-size: 100%;
 }
