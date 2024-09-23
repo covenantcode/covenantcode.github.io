@@ -86,32 +86,14 @@ h1 {
     max-width: 100%;
 }
 
-.person-image-mike {
-    position: relative;
-    bottom: 99px;
-    max-width: 700px;
-    left: 63px;
-}
 
-.person-image-benji {
-    position: relative;
-    bottom: 151px;
-    max-width: 500px;
-    right: 16px;
-}
-
-.person-image-ashok {
-    position: relative;
-    bottom: 170px;
-    max-width: 600px;
-    left: 18px;
-}
 
 .person-card {
-    max-height: 330px !important;
+    max-height: 700px !important;
     background: rgba(232, 232, 232, .6);
     border-radius: 20px;
     box-shadow: 1px -1px 2px rgba(0, 0, 0, .4);
+    overflow: hidden;
 }
 
 .mt-person-card {
@@ -135,4 +117,64 @@ h1 {
 .code-bg {
     background: url("/assets/cc_logo_4_backdrop.png") no-repeat;
     background-size: 100%;
+}
+
+.person-image-benji {
+    width: 100%;
+    position: relative;
+    right: 3.6%;
+    top: 17px;
+}
+
+.person-image-ashok {
+    width: 100%;
+    position: relative;
+    top: 17px;
+    left: 17px;
+}
+
+.person-image-mike {
+    width: 130%;
+    position: relative;
+    top: 17px;
+    right: 19%;
+}
+
+.grey-section {
+    background: transparent;
+}
+
+/*** Media Queries for tab and above ***/
+
+@media only screen and (min-width: 992px) {
+    .person-image-mike {
+        position: relative;
+        width: 700px;
+        left: 63px;
+        top: -98px;
+    }
+
+    .person-image-benji {
+        position: relative;
+        width: 500px;
+        right: 16px;
+        top: -151px;
+    }
+
+    .person-image-ashok {
+        position: relative;
+        bottom: 170px;
+        width: 600px;
+        left: 18px;
+        top: -170px;
+    }
+
+    .person-card {
+        max-height: 330px !important;
+        overflow: visible;
+    }
+
+    .grey-section {
+        background: #e8e8e8;
+    }
 }

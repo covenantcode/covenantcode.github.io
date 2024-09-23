@@ -14,8 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <link rel="stylesheet" href="style.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.min.css"> -->
     <!--Add fav icon-->
     <link rel="icon" type="image/x-icon" href="/assets/logo.jpg">
 
@@ -30,8 +30,8 @@
         <nav class="navbar navbar-light bg-transparent">
             <div class="container-fluid">
                 <a class="navbar-brand"><img src="/assets/logo.jpg" class="logo" alt="Covenant Code Logo"></a>
-                <button class="btn btn-transparent mt-2">Let's Talk<span><img class="arrow-right white" src="/assets/arrow_white.png"
-                            alt="Let's Talk"></span></button>
+                <button class="btn btn-transparent mt-2">Let's Talk<span><img class="arrow-right white"
+                            src="/assets/arrow_white.png" alt="Let's Talk"></span></button>
                 </form>
             </div>
         </nav>
@@ -46,7 +46,8 @@
             <section class="d-flex justify-content-between mt-4">
                 <button class="btn btn-lg btn-dark cta-button">Let's Talk<span><img class="arrow-right white"
                             src="/assets/arrow_black.png" alt="Arrow"></span></button>
-                <p class="text-medium">Covenant Code is a design-driven studio delivering innovative product solutions
+                <p class="text-medium d-none d-lg-block">Covenant Code is a design-driven studio delivering innovative
+                    product solutions
                     with a strong focus
                     on<br />
                     visual excellence. We transform concepts into impactful experiences, combining creativity with
@@ -59,11 +60,12 @@
 
             <!-- Mike -->
             <div class="person-card card mt-5">
-                <div class="card-body d-flex justify-content-between">
+                <div class="card-body d-block d-lg-flex  justify-content-between">
                     <div class="person-info">
                         <h1 class="massive-2 mt-3">Mike</h1>
                         <h3 class="text-bold clr-two">The <span class="clr-one">Design</span> Guy</h3>
-                        <p class="text-medium mt-3">With over a decade of experience in product development, Mike is a
+                        <p class="text-medium mt-3 d-none d-lg-block">With over a decade of experience in product
+                            development, Mike is a
                             seasoned
                             full-stack developer and design expert. His unique blend oftechnical proficiency
                             and creative insight allows him to craft innovative, high-performance solutions
@@ -80,14 +82,15 @@
 
             <!-- Benji -->
             <div class="person-card card mt-person-card">
-                <div class="card-body d-flex justify-content-between">
-                    <div class="person-image-wrapper">
+                <div class="card-body d-block d-lg-flex justify-content-between">
+                    <div class="person-image-wrapper d-none d-lg-block">
                         <img src="/assets/benji.png" class="person-image-benji" alt="Mike" />
                     </div>
                     <div class="person-info">
                         <h1 class="massive-2 mt-3">Benji</h1>
                         <h3 class="text-bold clr-two">The <span class="clr-one">Product</span> Guy</h3>
-                        <p class="text-medium mt-3">With a decade of experience as both a product manager and
+                        <p class="text-medium mt-3 d-none d-lg-block">With a decade of experience as both a product
+                            manager and
                             full-stack developer, Benji
                             has honed his skills in both technical execution and strategic planning. His expertise
                             in
@@ -96,17 +99,21 @@
                             approach ensures that projects are not only innovative but also practical and
                             successful.</p>
                     </div>
+                    <div class="person-image-wrapper d-block d-lg-none">
+                        <img src="/assets/benji.png" class="person-image-benji" alt="Mike" />
+                    </div>
 
                 </div>
             </div>
 
             <!-- Ashok -->
             <div class="person-card card mt-person-card">
-                <div class="card-body d-flex justify-content-between">
+                <div class="card-body d-block d-lg-flex justify-content-between">
                     <div class="person-info">
                         <h1 class="massive-2 mt-3">Ashok</h1>
                         <h3 class="text-bold clr-two">The <span class="clr-one">Tech</span> Guy</h3>
-                        <p class="text-medium mt-3">Ashok is a seasoned technology expert with over a decade of
+                        <p class="text-medium mt-3 d-none d-lg-block">Ashok is a seasoned technology expert with over a
+                            decade of
                             experience
                             spanning development and DevOps. Specializing in backend development
                             across multiple frameworks, his deep expertise allows him to build robust,
@@ -123,11 +130,11 @@
         </section>
 
 
-        <section id="hire-us" class="d-flex my-5 py-5 justify-content-center">
+        <section id="hire-us" class="d-block d-lg-flex my-5 py-5 justify-content-center">
             <button style="border-radius: 45px;font-size: 25px;"
-                class="btn btn-dark cta-button px-5 py-1 text-medium">Hire Us<span><img class="arrow-right"
+                class="btn btn-dark cta-button px-5 py-1 text-medium d-block m-auto">Hire Us<span><img class="arrow-right"
                         src="/assets/arrow_white.png" alt="Arrow"></span></button>
-            <h1 class="massive"><span class="clr-two ">&nbsp;&nbsp;as</span> Tech Consultants</h1>
+            <h1 class="massive text-center"><span class="clr-two ">&nbsp;&nbsp;as</span> Tech Consultants</h1>
         </section>
 
         <section id="upcoming-products" class="mt-5">
@@ -135,7 +142,7 @@
         </section>
 
     </article>
-    <article class="bg-three mt-4 p-5">
+    <article class="grey-section mt-4 p-5">
         <section class="d-flex justify-content-between align-items-stretch container">
 
             <!-- Covenant Companion -->
